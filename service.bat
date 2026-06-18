@@ -53,7 +53,7 @@ if "%1"=="admin" (
 
 :: MENU ================================
 setlocal EnableDelayedExpansion
-title ZAPRET SERVICE MANAGER v!LOCAL_VERSION!
+title ZAPRET SERVICE MANAGER v!LOCAL_VERSION! for Gloria Victis v2
 :menu
 
 cls
@@ -66,7 +66,7 @@ call :get_strategy_name
 set "menu_choice=null"
 
 echo.
-echo   ZAPRET SERVICE MANAGER v!LOCAL_VERSION!
+echo   ZAPRET SERVICE MANAGER v!LOCAL_VERSION! for Gloria Victis v2
 echo.  !CurrentStrategy!
 echo   ----------------------------------------
 echo.
